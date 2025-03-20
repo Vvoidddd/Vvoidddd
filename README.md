@@ -25,8 +25,7 @@
 
 ## 📊 **GitHub Stats**  
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Vvoidddd&show_icons=true&theme=radical&icon_color=0000FF&text_color=FFFFFF&title_color=0000FF&bg_color=000000)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Vvoidddd&layout=compact&theme=radical&title_color=0000FF&text_color=FFFFFF&bg_color=000000)  
-![GitHub Streak](https://streak-stats.demolab.com?user=Vvoidddd&theme=dark&hide_border=true&ring=0000FF&fire=0000FF&currStreakLabel=0000FF&background=000000)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Vvoidddd&layout=compact&theme=radical&title_color=0000FF&text_color=FFFFFF&bg_color=000000)   
 
 ---
 
