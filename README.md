@@ -38,7 +38,7 @@
 
 ## 🌎 **Connect With Me**  
 [![Roblox](https://img.shields.io/badge/Roblox-000000?style=for-the-badge&logo=roblox&logoColor=0000FF)](https://www.roblox.com/users/88469511/profile)  
-[![Discord](https://img.shields.io/badge/Discord-000000?style=for-the-badge&logo=discord&logoColor=0000FF)](#)  
+[![Discord](https://img.shields.io/badge/Discord-000000?style=for-the-badge&logo=discord&logoColor=0000FF)](https://discord.gg/Mv3CdFKWrD)  
 
 ---
 
