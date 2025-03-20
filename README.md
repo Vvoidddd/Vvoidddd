@@ -1,48 +1,50 @@
 # 👋 Welcome to My GitHub Profile!  
 
-![Profile Views](https://komarev.com/ghpvc/?username=Vvoidddd&color=0000FF)  
-![Followers](https://img.shields.io/github/followers/Vvoidddd?style=social&color=0000FF&bg_color=000000)  
-![GitHub Stars](https://img.shields.io/github/stars/Vvoidddd?style=social&color=0000FF&bg_color=000000)  
-
-## 🛠 **About Me**
-### [![Python Icon](https://img.shields.io/badge/Intermediate%20Python-000000?style=for-the-badge&logo=python&logoColor=0000FF)](https://www.google.com)
-### [![JavaScript Icon](https://img.shields.io/badge/Intermediate%20JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=0000FF)](https://www.google.com)
-### [![Gamepad Icon](https://img.shields.io/badge/Developing%20game%20scripts,%20custom%20tools,%20and%20Roblox%20utilities-000000?style=for-the-badge&logo=gamepad&logoColor=0000FF)](https://www.google.com)
-### [![Django Icon](https://img.shields.io/badge/Experienced%20in%20Django-000000?style=for-the-badge&logo=django&logoColor=0000FF)](https://www.google.com)
-### [![React Icon](https://img.shields.io/badge/Experienced%20in%20React-000000?style=for-the-badge&logo=react&logoColor=0000FF)](https://www.google.com)
-### [![Flask Icon](https://img.shields.io/badge/Experienced%20in%20Flask-000000?style=for-the-badge&logo=flask&logoColor=0000FF)](https://www.google.com)
-### [![Desktop Icon](https://img.shields.io/badge/Working%20on%20low%20level%20system%20programming-000000?style=for-the-badge&logo=desktop&logoColor=0000FF)](https://www.google.com)
+![Profile Views](https://komarev.com/ghpvc/?username=Vvoidddd&style=flat&label=Profile%20Views&color=blue)  
+![Followers](https://img.shields.io/github/followers/Vvoidddd?style=social&color=blue)  
+![GitHub Stars](https://img.shields.io/github/stars/Vvoidddd?style=social&color=blue)  
 
 ---
 
-## 🔧 **Current Projects**
-### [![Roblox Icon](https://img.shields.io/badge/Sentinel%20Hub%20%E2%80%93%20Game%20script%20%26%20loader-000000?style=for-the-badge&logo=roblox&logoColor=0000FF)](https://www.google.com)
-### [![Roblox Icon](https://img.shields.io/badge/Slime%20Slaying%20Online%20RPG%20Script%20%E2%80%93%20Automating%20gameplay%20mechanics-000000?style=for-the-badge&logo=roblox&logoColor=0000FF)](https://www.google.com)
-### [![Lua Icon](https://img.shields.io/badge/Lua%20Obfuscator%20%E2%80%93%20Secure%20Roblox%20Lua%20script%20protection-000000?style=for-the-badge&logo=lua&logoColor=0000FF)](https://www.google.com)
-### [![Apple Icon](https://img.shields.io/badge/macOS%20NVIDIA%20RTX%20Kexts%20%E2%80%93%20Kernel%20extension%20development-000000?style=for-the-badge&logo=apple&logoColor=0000FF)](https://www.google.com)
+## 🛠 **About Me**  
+[![Python](https://img.shields.io/badge/Python-Intermediate-blue?style=for-the-badge&logo=python)](https://www.python.org/)  
+[![JavaScript](https://img.shields.io/badge/JavaScript-Intermediate-blue?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
+[![Game Development](https://img.shields.io/badge/Game%20Scripts-%26%20Roblox%20Utilities-blue?style=for-the-badge&logo=roblox)](https://www.roblox.com/)  
+[![Django](https://img.shields.io/badge/Django-Intermediate-blue?style=for-the-badge&logo=django)](https://www.djangoproject.com/)  
+[![React](https://img.shields.io/badge/React-Intermediate-blue?style=for-the-badge&logo=react)](https://reactjs.org/)  
+[![Flask](https://img.shields.io/badge/Flask-Beginner-blue?style=for-the-badge&logo=flask)](https://flask.palletsprojects.com/)  
+[![Low-Level Programming](https://img.shields.io/badge/System%20Programming-Low%20Level-blue?style=for-the-badge&logo=linux)](https://www.kernel.org/)  
+
+---
+
+## 🔧 **Current Projects**  
+[![Sentinel Hub](https://img.shields.io/badge/Sentinel%20Hub-Game%20Script%20%26%20Loader-blue?style=for-the-badge&logo=roblox)](https://github.com/Vvoidddd/Sentinel-Hub)  
+[![Slime Slaying Online RPG](https://img.shields.io/badge/SSO%20Script-Automating%20Gameplay-blue?style=for-the-badge&logo=roblox)](https://github.com/Vvoidddd/SSO-Script)  
+[![Lua Obfuscator](https://img.shields.io/badge/Lua%20Obfuscator-Secure%20Script%20Protection-blue?style=for-the-badge&logo=lua)](https://github.com/Vvoidddd/Lua-Obfuscator)  
+[![macOS NVIDIA RTX Kexts](https://img.shields.io/badge/macOS%20NVIDIA%20RTX-Kernel%20Extension-blue?style=for-the-badge&logo=apple)](https://github.com/Vvoidddd/macOS-RTX-Kexts)  
 
 ---
 
 ## 📊 **GitHub Stats**  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Vvoidddd&show_icons=true&theme=radical&icon_color=0000FF&text_color=FFFFFF&title_color=0000FF&bg_color=000000)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Vvoidddd&layout=compact&theme=radical&title_color=0000FF&text_color=FFFFFF&bg_color=000000)   
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Vvoidddd&show_icons=true&theme=github_dark)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Vvoidddd&layout=compact&theme=github_dark)  
 
 ---
 
 ## 🎭 **Profile Badges**  
-![GitHub Commit Activity](https://github-readme-activity-graph.vercel.app/graph?username=Vvoidddd&theme=blue)  
-![Latest Commit](https://img.shields.io/github/last-commit/Vvoidddd/Vvoidddd?color=0000FF&label=Last%20Commit&style=flat-square&bg_color=000000)  
+![GitHub Commit Activity](https://github-readme-activity-graph.vercel.app/graph?username=Vvoidddd&theme=github-dark)  
+![Latest Commit](https://img.shields.io/github/last-commit/Vvoidddd/Vvoidddd?label=Last%20Commit&style=flat-square&color=blue)  
 
 ---
 
 ## 🌎 **Connect With Me**  
-[![Roblox](https://img.shields.io/badge/Roblox-000000?style=for-the-badge&logo=roblox&logoColor=0000FF)](https://www.roblox.com/users/88469511/profile)  
-[![Discord](https://img.shields.io/badge/Discord-000000?style=for-the-badge&logo=discord&logoColor=0000FF)](https://discord.gg/Mv3CdFKWrD)  
+[![Roblox](https://img.shields.io/badge/Roblox-Profile-blue?style=for-the-badge&logo=roblox)](https://www.roblox.com/users/88469511/profile)  
+[![Discord](https://img.shields.io/badge/Discord-Join-blue?style=for-the-badge&logo=discord)](https://discord.gg/Mv3CdFKWrD)  
 
 ---
 
 ## 🎵 **Now Playing**  
-[![Spotify Now Playing](https://img.shields.io/badge/Spotify-Now_Playing-blue?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/track/7eBqSVxrzQZtK2mmgRG6lC?si=71a5307486704e77)
+[![Spotify Now Playing](https://img.shields.io/badge/Spotify-Now_Playing-blue?style=for-the-badge&logo=spotify)](https://open.spotify.com/)  
 
 ---
 
@@ -51,4 +53,4 @@ I enjoy **breaking things just to fix them better** 😎
 
 ---
 
-⭐ **Feel free to explore my repositories and contribute!**
+⭐ **Feel free to explore my repositories and contribute!**  
