@@ -33,7 +33,6 @@
 
 ## 🎭 **Profile Badges**  
 ![GitHub Commit Activity](https://github-readme-activity-graph.vercel.app/graph?username=Vvoidddd&theme=github-dark)  
-![Latest Commit](https://img.shields.io/github/last-commit/Vvoidddd/Vvoidddd?label=Last%20Commit&style=flat-square&color=blue)  
 
 ---
 
