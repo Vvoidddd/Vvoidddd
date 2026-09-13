@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./void-header.svg" width="100%" alt="VOID Header"/>
+<img src="./assets/void-identity.svg" width="100%" alt="VOID OS identity sequence"/>
 
 <br>
 
@@ -8,127 +8,128 @@
   <img src="https://img.shields.io/github/followers/Vvoidddd?style=for-the-badge&label=FOLLOWERS&logo=github&logoColor=white&color=6D28D9"/>
 </a>
 
-<img src="https://komarev.com/ghpvc/?username=Vvoidddd&label=PROFILE%20VIEWS&style=for-the-badge&color=8B5CF6"/>
-
 <a href="https://github.com/Vvoidddd?tab=repositories">
   <img src="https://img.shields.io/badge/REPOSITORIES-EXPLORE-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 <br><br>
 
-`WINDOWS` • `SOFTWARE` • `SYSTEMS` • `AI` • `AUTOMATION`
+WINDOWS • SOFTWARE • SYSTEMS • AI • AUTOMATION
 
 </div>
 
-<img src="./neon-divider.svg" width="100%"/>
+<img src="./assets/void-divider.svg" width="100%" alt=""/>
 
-# `VOID://IDENTITY`
+/dev/void
 
-```yaml
-alias: Void
-username: Vvoidddd
+[identity]
+alias = Void
+username = Vvoidddd
+role = Software Developer / Systems Builder
 
-role:
-  - Software Developer
-  - Systems Builder
+[environment]
+os = Windows 11
+editor_primary = Visual Studio
+editor_secondary = VS Code
 
-environment:
-  os: Windows 11
-  editors:
-    - Visual Studio
-    - VS Code
+[languages]
+python = true
+cpp = true
+csharp = true
+javascript = true
+lua = true
+html_css = true
 
-languages:
-  - Python
-  - C++
-  - C#
-  - JavaScript
-  - Lua
-  - HTML
-  - CSS
+[focus]
+windows_development = true
+systems_programming = true
+networking = true
+automation = true
+artificial_intelligence = true
+local_llms = true
+backend_infrastructure = true
+developer_tools = true
+game_tooling = true
 
-focus:
-  - Windows Development
-  - Systems Programming
-  - Networking
-  - Automation
-  - Artificial Intelligence
-  - Local LLMs
-  - Backend Infrastructure
-  - Developer Tools
-  - Game Tooling
-```
+[mode]
+philosophy = BUILD -> BREAK -> UNDERSTAND -> IMPROVE
 
 <div align="center">
 
-### `I build things I actually want to use.`
+I build things I actually want to use.
 
-`BUILD` → `BREAK` → `UNDERSTAND` → `IMPROVE`
+BUILD → BREAK → UNDERSTAND → IMPROVE
 
 </div>
 
-<img src="./neon-divider.svg" width="100%"/>
+<img src="./assets/void-divider.svg" width="100%" alt=""/>
 
-# `VOID://PROJECTS`
+/sys/projects
 
 <table>
 <tr>
 
 <td width="50%" valign="top">
 
-## ⚡ VoidLaunch
+01 // VoidLaunch
 
-### Windows Game Launcher
+Windows Game Launcher
 
-A custom Windows launcher focused on automatically discovering, organizing, and launching installed games.
+A custom Windows launcher focused on discovering, organizing, and launching installed games without feeling like a generic file browser.
 
-```text
 C# • WPF • .NET 8 • Windows
-```
 
-**FEATURES**
+SUBSYSTEMS
 
-- Automatic game scanning
-- Executable discovery
-- Library management
-- Cover artwork
-- Favorites
-- Recently played
-- Custom frameless UI
-- Theme engine
-- Animated interface
+Automatic game scanning
 
-```diff
-+ ACTIVE DEVELOPMENT
-```
+Executable discovery
+
+Library persistence
+
+Cover artwork
+
+Favorites
+
+Recently played
+
+Custom frameless shell
+
+Theme engine
+
+Animated UI
+
++ STATE: ACTIVE DEVELOPMENT
 
 </td>
 
 <td width="50%" valign="top">
 
-## 🛠️ VoidTech
+02 // VoidTech
 
-### Windows Technician Toolkit
+Windows Technician Toolkit
 
-A Windows diagnostic and repair platform designed to automate repetitive PC troubleshooting and maintenance workflows.
+A Windows diagnostic and repair platform designed to collapse repetitive PC troubleshooting and maintenance workflows into one application.
 
-```text
-C# • Windows • APIs • Diagnostics
-```
+C# • Windows • Diagnostics • APIs
 
-**FOCUS**
+SUBSYSTEMS
 
-- Hardware diagnostics
-- Windows repair
-- Network diagnostics
-- System information
-- Maintenance automation
-- Technician workflows
-- Reporting
+Hardware diagnostics
 
-```diff
-+ RESEARCH / DEVELOPMENT
-```
+Windows repair
+
+Network diagnostics
+
+System information
+
+Maintenance automation
+
+Technician workflows
+
+Reporting
+
++ STATE: RESEARCH / DEVELOPMENT
 
 </td>
 
@@ -138,160 +139,104 @@ C# • Windows • APIs • Diagnostics
 
 <td width="50%" valign="top">
 
-## 🔐 VoidHub
+03 // VoidHub
 
-### Licensing & Backend Infrastructure
+Licensing + Backend Infrastructure
 
-Backend infrastructure for authentication, licensing, device activation, and client/server communication.
+Backend infrastructure for authentication, licensing, device activation, machine limits, and private client/server communication.
 
-```text
 Python • Flask • Nginx • SQL
-```
 
-```text
 VoidTech Client
       │
       ▼
     Nginx
       │
       ▼
- VoidHub API
+  VoidHub API
       │
       ▼
    Database
-```
 
-**SYSTEMS**
+SUBSYSTEMS
 
-- License generation
-- Device activation
-- Machine limits
-- Expiration tracking
-- Authentication
-- Private networking
-- API infrastructure
+License generation
 
-```diff
-+ PLANNING / DEVELOPMENT
-```
+Device activation
+
+Machine limits
+
+Expiration tracking
+
+Authentication
+
+Private networking
+
+API infrastructure
+
++ STATE: PLANNING / DEVELOPMENT
 
 </td>
 
 <td width="50%" valign="top">
 
-## 🛰️ Sentinel Hub
+04 // Sentinel Hub
 
-### Lua / Luau Utility Platform
+Lua / Luau Utility Platform
 
-A modular scripting environment centered around custom interfaces and reusable runtime utilities.
+A modular scripting environment centered around a custom interface, reusable runtime utilities, and feature modules.
 
-```text
 Lua • Luau • UI
-```
 
-**FOCUS**
+SUBSYSTEMS
 
-- Modular architecture
-- Custom UI
-- Runtime controls
-- Utility framework
+Modular architecture
 
-### [OPEN REPOSITORY →](https://github.com/Vvoidddd/Sentinel-Hub)
+Custom UI
 
-```diff
-+ ACTIVE
-```
+Runtime controls
+
+Utility framework
+
+Reusable components
+
+OPEN REPOSITORY →
+
++ STATE: ACTIVE
 
 </td>
 
 </tr>
 </table>
 
-<img src="./neon-divider.svg" width="100%"/>
+<img src="./assets/void-divider.svg" width="100%" alt=""/>
 
-# `VOID://TECH`
-
-<div align="center">
-
-### Languages
-
-<img src="https://skillicons.dev/icons?i=python,cpp,cs,js,lua,html,css"/>
-
-<br><br>
-
-### Frameworks & Runtime
-
-<img src="https://skillicons.dev/icons?i=dotnet,flask,django,react,nodejs"/>
-
-<br><br>
-
-### Systems & Infrastructure
-
-<img src="https://skillicons.dev/icons?i=windows,linux,docker,nginx,sqlite"/>
-
-<br><br>
-
-### Development
-
-<img src="https://skillicons.dev/icons?i=visualstudio,vscode,git,github,powershell"/>
-
-</div>
-
-<img src="./neon-divider.svg" width="100%"/>
-
-# `VOID://TELEMETRY`
+/proc/void/stack
 
 <div align="center">
 
-## Contribution Streak
-
-<img
-width="72%"
-src="https://streak-stats.demolab.com?user=Vvoidddd&hide_border=true&background=0D1117&ring=8B5CF6&fire=C084FC&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=A78BFA&sideLabels=8B949E&dates=64748B&stroke=30363D"
-/>
-
-<br><br>
-
-## Developer Overview
-
-<img
-width="92%"
-src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Vvoidddd&theme=github_dark"
-/>
-
-<br>
-
-<img
-width="45%"
-src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Vvoidddd&theme=github_dark"
-/>
-
-<img
-width="45%"
-src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Vvoidddd&theme=github_dark&utcOffset=-4"
-/>
-
-<br><br>
-
-## Language Analytics
-
-<img
-width="45%"
-src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Vvoidddd&theme=github_dark"
-/>
-
-<img
-width="45%"
-src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Vvoidddd&theme=github_dark"
-/>
+<img src="./assets/void-tech.svg" width="100%" alt="VOID technology matrix"/>
 
 </div>
 
-<img src="./neon-divider.svg" width="100%"/>
+<img src="./assets/void-divider.svg" width="100%" alt=""/>
 
-# `VOID://ARCHITECTURE`
+voidctl telemetry
 
-```mermaid
+<div align="center">
+
+<img src="./assets/void-telemetry.svg" width="100%" alt="VOID GitHub telemetry"/>
+
+</div>
+
+telemetry.source  = local repository asset
+telemetry.mode    = generated
+telemetry.status  = ONLINE
+
+<img src="./assets/void-divider.svg" width="100%" alt=""/>
+
+/etc/void/network.map
+
 flowchart LR
 
     VOID((VOID))
@@ -304,6 +249,7 @@ flowchart LR
 
     WINDOWS --> WPF["WPF / .NET"]
     WINDOWS --> DESKTOP["DESKTOP APPS"]
+    WINDOWS --> UI["CUSTOM UI"]
 
     SYSTEMS --> NET["NETWORKING"]
     SYSTEMS --> DIAG["DIAGNOSTICS"]
@@ -311,38 +257,72 @@ flowchart LR
 
     AI --> LLM["LOCAL LLMs"]
     AI --> AGENT["AI TOOLING"]
+    AI --> INFERENCE["LOCAL INFERENCE"]
 
     BACKEND --> API["REST APIs"]
     BACKEND --> AUTH["AUTH"]
     BACKEND --> DB["DATABASES"]
+    BACKEND --> NGINX["NGINX"]
 
     GAME --> LUA["LUA / LUAU"]
     GAME --> LAUNCH["LAUNCHERS"]
-```
+    GAME --> MOD["MODDING"]
 
-<img src="./neon-divider.svg" width="100%"/>
+<img src="./assets/void-divider.svg" width="100%" alt=""/>
 
-# `VOID://REPOSITORIES`
+ls -lah ~/repositories
 
-| Repository | Type | Stack | Status |
-|---|---|---|---|
-| [**Sentinel Hub**](https://github.com/Vvoidddd/Sentinel-Hub) | Utility Hub | `Lua` `Luau` | `ONLINE` |
-| [**SSO Script**](https://github.com/Vvoidddd/SSO-Script) | Automation | `Lua` | `ONLINE` |
-| [**Lua Obfuscator**](https://github.com/Vvoidddd/Lua-Obfuscator) | Source Transformation | `Lua` | `EXPERIMENTAL` |
-| [**macOS RTX Kexts**](https://github.com/Vvoidddd/macOS-RTX-Kexts) | Systems Experiment | `Low-Level` | `EXPERIMENTAL` |
+Repository
 
-<img src="./neon-divider.svg" width="100%"/>
+Type
 
-# `VOID://INTERESTS`
+Stack
+
+State
+
+Sentinel Hub
+
+Utility Hub
+
+Lua Luau
+
+ONLINE
+
+SSO Script
+
+Automation
+
+Lua
+
+ONLINE
+
+Lua Obfuscator
+
+Source Transformation
+
+Lua
+
+EXPERIMENTAL
+
+macOS RTX Kexts
+
+Systems Experiment
+
+Low-Level
+
+EXPERIMENTAL
+
+<img src="./assets/void-divider.svg" width="100%" alt=""/>
+
+/proc/void/interests
 
 <table>
 <tr>
 
 <td width="50%" valign="top">
 
-## 🖥️ Windows Development
+WINDOWS.DEV
 
-```text
 WPF
 .NET
 Windows APIs
@@ -351,15 +331,13 @@ File Systems
 System Diagnostics
 Custom UI
 Automation
-```
 
 </td>
 
 <td width="50%" valign="top">
 
-## 🤖 Artificial Intelligence
+AI.LOCAL
 
-```text
 Local LLMs
 LM Studio
 Model APIs
@@ -367,7 +345,6 @@ Coding Assistants
 Agent Systems
 Tool Calling
 Local Inference
-```
 
 </td>
 
@@ -377,9 +354,8 @@ Local Inference
 
 <td width="50%" valign="top">
 
-## 🌐 Systems & Infrastructure
+SYSTEMS.NET
 
-```text
 REST APIs
 Nginx
 Networking
@@ -387,84 +363,74 @@ Authentication
 Databases
 Private Networks
 Client / Server Architecture
-```
 
 </td>
 
 <td width="50%" valign="top">
 
-## 🎮 Game Tooling
+GAME.TOOLS
 
-```text
 Launchers
 Lua / Luau
 Modding
 Automation
 Asset Management
 Custom Interfaces
-```
 
 </td>
 
 </tr>
 </table>
 
-<img src="./neon-divider.svg" width="100%"/>
+<img src="./assets/void-divider.svg" width="100%" alt=""/>
 
-# `VOID://ROADMAP`
+cat /etc/void/roadmap.conf
 
-```diff
-+ Build more native Windows software
-+ Expand VoidLaunch
-+ Develop VoidTech
-+ Build VoidHub infrastructure
-+ Learn deeper systems programming
-+ Experiment with local LLM systems
-+ Build AI-powered developer tools
-+ Learn deeper networking
-+ Create better developer tooling
-+ Keep turning random ideas into software
-```
++ ship more native Windows software
++ expand VoidLaunch
++ develop VoidTech
++ build VoidHub infrastructure
++ go deeper into systems programming
++ experiment with local LLM systems
++ build AI-powered developer tools
++ learn deeper networking
++ create better developer tooling
++ keep turning random ideas into software
 
-<img src="./neon-divider.svg" width="100%"/>
+<img src="./assets/void-divider.svg" width="100%" alt=""/>
 
-# `VOID://PHILOSOPHY`
+journalctl -u void.service
 
-<div align="center">
+[ OK ] idea detected
+[ OK ] project created
+[WARN] scope increased for no reason
+[FAIL] something broke
+[ OK ] debugger attached
+[WARN] fix created three new problems
+[ OK ] learned something
+[ OK ] rebuilt it better
+[ .. ] waiting for next bad idea...
 
-```text
-┌───────────────────────────────────────────────────────────────┐
-│                                                               │
-│   SOFTWARE IS MORE INTERESTING WHEN YOU UNDERSTAND            │
-│   WHAT'S HAPPENING UNDERNEATH IT.                             │
-│                                                               │
-│            BUILD → BREAK → LEARN → REBUILD                    │
-│                                                               │
-└───────────────────────────────────────────────────────────────┘
-```
+<img src="./assets/void-divider.svg" width="100%" alt=""/>
 
-</div>
-
-<img src="./neon-divider.svg" width="100%"/>
-
-# `VOID://CONNECT`
+/dev/connect
 
 <div align="center">
 
 <a href="https://github.com/Vvoidddd">
-<img src="https://img.shields.io/badge/GITHUB-VVOIDDDD-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GITHUB-VVOIDDDD-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 <a href="https://discord.gg/Mv3CdFKWrD">
-<img src="https://img.shields.io/badge/DISCORD-CONNECT-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
+  <img src="https://img.shields.io/badge/DISCORD-CONNECT-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
 </a>
 
 <a href="https://www.roblox.com/users/88469511/profile">
-<img src="https://img.shields.io/badge/ROBLOX-PROFILE-8B5CF6?style=for-the-badge&logo=roblox&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ROBLOX-PROFILE-8B5CF6?style=for-the-badge&logo=roblox&logoColor=white"/>
 </a>
 
+<br><br>
+
+<img src="./assets/void-footer.svg" width="100%" alt="VOID OS shutdown sequence"/>
+
 </div>
-
-<br>
-
-<img src="./void-footer.svg" width="100%" alt="VOID Footer"/>
