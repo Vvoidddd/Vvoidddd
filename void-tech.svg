@@ -1,0 +1,12 @@
+<svg width="1200" height="390" viewBox="0 0 1200 390" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#08080d"/><stop offset="100%" stop-color="#0f0a18"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="20" y="20" width="1160" height="350" rx="18" fill="url(#bg)" stroke="#2a2038"/>
+<text x="55" y="62" font-family="monospace" font-size="14" fill="#64748b">/proc/void/stack</text>
+<text x="1145" y="62" text-anchor="end" font-family="monospace" font-size="12" fill="#8b5cf6">LIVE MODULE MAP</text>
+<g font-family="monospace">
+<g transform="translate(55 95)"><text x="0" y="0" font-size="15" fill="#c084fc">LANGUAGES</text><g font-size="16" fill="#e2e8f0"><text x="0" y="42">Python</text><text x="145" y="42">C++</text><text x="255" y="42">C#</text><text x="355" y="42">JavaScript</text><text x="520" y="42">Lua</text><text x="610" y="42">HTML/CSS</text></g></g>
+<g transform="translate(55 185)"><text x="0" y="0" font-size="15" fill="#c084fc">RUNTIME / FRAMEWORKS</text><g font-size="16" fill="#e2e8f0"><text x="0" y="42">.NET</text><text x="145" y="42">WPF</text><text x="255" y="42">Flask</text><text x="355" y="42">Django</text><text x="485" y="42">React</text><text x="610" y="42">Node.js</text></g></g>
+<g transform="translate(55 275)"><text x="0" y="0" font-size="15" fill="#c084fc">SYSTEMS / TOOLING</text><g font-size="16" fill="#e2e8f0"><text x="0" y="42">Windows</text><text x="145" y="42">Linux</text><text x="255" y="42">Git</text><text x="355" y="42">PowerShell</text><text x="520" y="42">Nginx</text><text x="610" y="42">Docker</text><text x="730" y="42">SQLite</text><text x="850" y="42">LM Studio</text></g></g>
+</g>
+<g fill="#8b5cf6" filter="url(#g)"><circle cx="1120" cy="126" r="4"><animate attributeName="opacity" values=".2;1;.2" dur="1.2s" repeatCount="indefinite"/></circle><circle cx="1120" cy="216" r="4"><animate attributeName="opacity" values=".2;1;.2" dur="1.2s" begin=".35s" repeatCount="indefinite"/></circle><circle cx="1120" cy="306" r="4"><animate attributeName="opacity" values=".2;1;.2" dur="1.2s" begin=".7s" repeatCount="indefinite"/></circle></g>
+</svg>
