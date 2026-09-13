@@ -1,0 +1,96 @@
+<svg width="1200" height="525" viewBox="0 0 1200 525" xmlns="http://www.w3.org/2000/svg">
+
+<rect x="20" y="20" width="1160" height="485" rx="20" fill="#09090F" stroke="#2A2038"></rect>
+
+<text x="60" y="68" font-family="monospace" font-size="15" fill="#8B5CF6">
+/proc/void/interests
+</text>
+
+
+<!-- BOXES -->
+
+<g fill="#0D0D14" stroke="#312442">
+
+<rect x="55" y="105" width="525" height="165" rx="14"></rect>
+
+<rect x="620" y="105" width="525" height="165" rx="14"></rect>
+
+<rect x="55" y="300" width="525" height="165" rx="14"></rect>
+
+<rect x="620" y="300" width="525" height="165" rx="14"></rect>
+
+</g>
+
+
+<g font-family="monospace">
+
+<text x="85" y="145" font-size="17" fill="#C084FC">
+WINDOWS.DEV
+</text>
+
+<text x="85" y="180" font-size="13" fill="#94A3B8">
+WPF / .NET / Windows APIs
+</text>
+
+<text x="85" y="205" font-size="13" fill="#94A3B8">
+processes / filesystems / diagnostics
+</text>
+
+<text x="85" y="230" font-size="13" fill="#94A3B8">
+custom UI / automation
+</text>
+
+
+<text x="650" y="145" font-size="17" fill="#C084FC">
+AI.LOCAL
+</text>
+
+<text x="650" y="180" font-size="13" fill="#94A3B8">
+local LLMs / LM Studio / model APIs
+</text>
+
+<text x="650" y="205" font-size="13" fill="#94A3B8">
+coding agents / tool calling
+</text>
+
+<text x="650" y="230" font-size="13" fill="#94A3B8">
+local inference
+</text>
+
+
+<text x="85" y="340" font-size="17" fill="#C084FC">
+SYSTEMS.NET
+</text>
+
+<text x="85" y="375" font-size="13" fill="#94A3B8">
+REST / Nginx / private networks
+</text>
+
+<text x="85" y="400" font-size="13" fill="#94A3B8">
+authentication / databases
+</text>
+
+<text x="85" y="425" font-size="13" fill="#94A3B8">
+client-server architecture
+</text>
+
+
+<text x="650" y="340" font-size="17" fill="#C084FC">
+GAME.TOOLS
+</text>
+
+<text x="650" y="375" font-size="13" fill="#94A3B8">
+launchers / Lua / Luau / modding
+</text>
+
+<text x="650" y="400" font-size="13" fill="#94A3B8">
+automation / asset management
+</text>
+
+<text x="650" y="425" font-size="13" fill="#94A3B8">
+custom interfaces
+</text>
+
+</g>
+
+</svg>

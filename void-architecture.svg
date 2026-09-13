@@ -1,0 +1,135 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="bg">
+<stop offset="0%" stop-color="#08080D"></stop>
+<stop offset="100%" stop-color="#10091A"></stop>
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="3" result="b"></feGaussianBlur>
+<feMerge>
+<feMergeNode in="b"></feMergeNode>
+<feMergeNode in="SourceGraphic"></feMergeNode>
+</feMerge>
+</filter>
+
+</defs>
+
+<rect x="20" y="20" width="1160" height="480" rx="20" fill="url(#bg)" stroke="#2A2038"></rect>
+
+<text x="60" y="68" font-family="monospace" font-size="15" fill="#8B5CF6">
+/etc/void/network.map
+</text>
+
+
+<!-- CONNECTIONS -->
+
+<g stroke="#4C3568" stroke-width="2" fill="none">
+
+<path d="M600 245 L300 145"></path>
+<path d="M600 245 L300 245"></path>
+<path d="M600 245 L300 345"></path>
+
+<path d="M600 245 L900 145"></path>
+<path d="M600 245 L900 245"></path>
+<path d="M600 245 L900 345"></path>
+
+</g>
+
+
+<!-- CENTER -->
+
+<circle cx="600" cy="245" r="72" fill="#10091A" stroke="#8B5CF6" stroke-width="3" filter="url(#glow)"></circle>
+
+<text x="600" y="252" text-anchor="middle" font-family="monospace" font-size="28" font-weight="700" fill="#F8FAFC">
+VOID
+</text>
+
+
+<!-- LEFT -->
+
+<g font-family="monospace" text-anchor="middle">
+
+<rect x="185" y="110" width="230" height="70" rx="12" fill="#0D0D14" stroke="#312442"></rect>
+
+<text x="300" y="140" font-size="16" fill="#C084FC">
+WINDOWS
+</text>
+
+<text x="300" y="162" font-size="11" fill="#64748B">
+WPF / .NET / APIs
+</text>
+
+
+<rect x="185" y="210" width="230" height="70" rx="12" fill="#0D0D14" stroke="#312442"></rect>
+
+<text x="300" y="240" font-size="16" fill="#C084FC">
+SYSTEMS
+</text>
+
+<text x="300" y="262" font-size="11" fill="#64748B">
+NETWORK / DIAGNOSTICS
+</text>
+
+
+<rect x="185" y="310" width="230" height="70" rx="12" fill="#0D0D14" stroke="#312442"></rect>
+
+<text x="300" y="340" font-size="16" fill="#C084FC">
+AUTOMATION
+</text>
+
+<text x="300" y="362" font-size="11" fill="#64748B">
+TOOLS / WORKFLOWS
+</text>
+
+</g>
+
+
+<!-- RIGHT -->
+
+<g font-family="monospace" text-anchor="middle">
+
+<rect x="785" y="110" width="230" height="70" rx="12" fill="#0D0D14" stroke="#312442"></rect>
+
+<text x="900" y="140" font-size="16" fill="#C084FC">
+AI
+</text>
+
+<text x="900" y="162" font-size="11" fill="#64748B">
+LOCAL LLMs / AGENTS
+</text>
+
+
+<rect x="785" y="210" width="230" height="70" rx="12" fill="#0D0D14" stroke="#312442"></rect>
+
+<text x="900" y="240" font-size="16" fill="#C084FC">
+BACKEND
+</text>
+
+<text x="900" y="262" font-size="11" fill="#64748B">
+API / AUTH / DATABASE
+</text>
+
+
+<rect x="785" y="310" width="230" height="70" rx="12" fill="#0D0D14" stroke="#312442"></rect>
+
+<text x="900" y="340" font-size="16" fill="#C084FC">
+GAME TOOLING
+</text>
+
+<text x="900" y="362" font-size="11" fill="#64748B">
+LUA / LAUNCHERS
+</text>
+
+</g>
+
+
+<circle r="5" fill="#C084FC" filter="url(#glow)">
+
+<animateMotion dur="4s" repeatCount="indefinite" path="M600 245 L900 145 L600 245 L300 345 L600 245"></animateMotion>
+
+</circle>
+
+</svg>

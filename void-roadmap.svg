@@ -1,0 +1,77 @@
+<svg width="1200" height="440" viewBox="0 0 1200 440" xmlns="http://www.w3.org/2000/svg">
+
+<rect x="20" y="20" width="1160" height="400" rx="20" fill="#09090F" stroke="#2A2038"></rect>
+
+<text x="60" y="68" font-family="monospace" font-size="15" fill="#8B5CF6">
+cat /etc/void/roadmap.conf
+</text>
+
+<g font-family="monospace" font-size="14">
+
+<text x="70" y="120" fill="#22C55E">+</text>
+
+<text x="100" y="120" fill="#E2E8F0">
+ship more native Windows software
+</text>
+
+
+<text x="70" y="155" fill="#22C55E">+</text>
+
+<text x="100" y="155" fill="#E2E8F0">
+expand VoidLaunch
+</text>
+
+
+<text x="70" y="190" fill="#22C55E">+</text>
+
+<text x="100" y="190" fill="#E2E8F0">
+develop VoidTech
+</text>
+
+
+<text x="70" y="225" fill="#22C55E">+</text>
+
+<text x="100" y="225" fill="#E2E8F0">
+build VoidHub infrastructure
+</text>
+
+
+<text x="70" y="260" fill="#22C55E">+</text>
+
+<text x="100" y="260" fill="#E2E8F0">
+go deeper into systems programming
+</text>
+
+
+<text x="70" y="295" fill="#22C55E">+</text>
+
+<text x="100" y="295" fill="#E2E8F0">
+build local AI / inference tooling
+</text>
+
+
+<text x="70" y="330" fill="#22C55E">+</text>
+
+<text x="100" y="330" fill="#E2E8F0">
+learn deeper networking and infrastructure
+</text>
+
+
+<text x="70" y="365" fill="#22C55E">+</text>
+
+<text x="100" y="365" fill="#E2E8F0">
+keep turning random ideas into working software
+</text>
+
+</g>
+
+
+<rect x="60" y="392" width="1080" height="2" fill="#21182C"></rect>
+
+<rect y="392" width="200" height="2" fill="#8B5CF6">
+
+<animate attributeName="x" values="-200;1200" dur="5s" repeatCount="indefinite"></animate>
+
+</rect>
+
+</svg>

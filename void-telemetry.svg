@@ -1,72 +1,195 @@
-<svg width="1200" height="450" viewBox="0 0 1200 450" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="460" viewBox="0 0 1200 460" xmlns="http://www.w3.org/2000/svg">
+
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#07070C"/>
-    <stop offset="52%" stop-color="#0D0816"/>
-    <stop offset="100%" stop-color="#07070C"/>
-  </linearGradient>
-  <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".55"/>
-    <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
-  </linearGradient>
-  <filter id="glow">
-    <feGaussianBlur stdDeviation="3" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-    <path d="M36 0H0V36" fill="none" stroke="#8B5CF6" stroke-width=".4" opacity=".055"/>
-  </pattern>
+
+<linearGradient id="bg">
+<stop offset="0%" stop-color="#08080D"></stop>
+<stop offset="100%" stop-color="#10091A"></stop>
+</linearGradient>
+
+<linearGradient id="chart" x1="0" y1="0" x2="0" y2="1">
+
+<stop offset="0%" stop-color="#8B5CF6" stop-opacity=".5"></stop>
+
+<stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"></stop>
+
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="3" result="b"></feGaussianBlur>
+<feMerge>
+<feMergeNode in="b"></feMergeNode>
+<feMergeNode in="SourceGraphic"></feMergeNode>
+</feMerge>
+</filter>
+
 </defs>
 
-<rect x="20" y="20" width="1160" height="410" rx="18" fill="url(#bg)" stroke="#2A2038"/>
-<rect x="20" y="20" width="1160" height="410" rx="18" fill="url(#grid)"/>
 
-<text x="60" y="62" font-family="monospace" font-size="15" fill="#8B5CF6">VOID TELEMETRY // SNAPSHOT</text>
-<text x="1115" y="62" text-anchor="end" font-family="monospace" font-size="11" fill="#64748B">PROFILE DATA LOADED</text>
-<circle cx="1135" cy="57" r="4" fill="#22C55E" filter="url(#glow)">
-  <animate attributeName="opacity" values=".25;1;.25" dur="1.5s" repeatCount="indefinite"/>
-</circle>
+<rect x="20" y="20" width="1160" height="420" rx="20" fill="url(#bg)" stroke="#2A2038"></rect>
+
+
+<text x="60" y="68" font-family="monospace" font-size="15" fill="#8B5CF6">
+voidctl telemetry
+</text>
+
+<text x="1135" y="68" text-anchor="end" font-family="monospace" font-size="12" fill="#22C55E">
+● ONLINE
+</text>
+
+
+<!-- STAT BLOCKS -->
 
 <g font-family="monospace">
-  <text x="60" y="112" font-size="11" fill="#64748B">CONTRIBUTIONS</text>
-  <text x="60" y="151" font-size="31" font-weight="700" fill="#F8FAFC">368</text>
 
-  <text x="220" y="112" font-size="11" fill="#64748B">REPOSITORIES</text>
-  <text x="220" y="151" font-size="31" font-weight="700" fill="#F8FAFC">10</text>
+<text x="60" y="118" font-size="11" fill="#64748B">
+CONTRIBUTIONS
+</text>
 
-  <text x="380" y="112" font-size="11" fill="#64748B">FOLLOWERS</text>
-  <text x="380" y="151" font-size="31" font-weight="700" fill="#F8FAFC">2</text>
+<text x="60" y="160" font-size="32" font-weight="700" fill="#F8FAFC">
+368
+</text>
 
-  <text x="515" y="112" font-size="11" fill="#64748B">STARS</text>
-  <text x="515" y="151" font-size="31" font-weight="700" fill="#F8FAFC">6</text>
 
-  <text x="60" y="197" font-size="12" fill="#64748B">void.service</text>
-  <text x="175" y="197" font-size="12" fill="#22C55E">ACTIVE</text>
-  <text x="245" y="197" font-size="12" fill="#64748B">//</text>
-  <text x="270" y="197" font-size="12" fill="#A78BFA">profile synchronized</text>
+<text x="240" y="118" font-size="11" fill="#64748B">
+REPOSITORIES
+</text>
+
+<text x="240" y="160" font-size="32" font-weight="700" fill="#F8FAFC">
+10
+</text>
+
+
+<text x="410" y="118" font-size="11" fill="#64748B">
+FOLLOWERS
+</text>
+
+<text x="410" y="160" font-size="32" font-weight="700" fill="#F8FAFC">
+2
+</text>
+
+
+<text x="560" y="118" font-size="11" fill="#64748B">
+STARS
+</text>
+
+<text x="560" y="160" font-size="32" font-weight="700" fill="#F8FAFC">
+6
+</text>
+
 </g>
 
-<text x="690" y="78" font-family="monospace" font-size="11" fill="#64748B">ACTIVE STACK</text>
-<text x="690" y="112" font-family="monospace" font-size="14" fill="#E2E8F0">Python</text><rect x="845" y="101" width="220" height="8" rx="4" fill="#8B5CF6" opacity="0.95"/>
-<text x="690" y="140" font-family="monospace" font-size="14" fill="#E2E8F0">C#</text><rect x="845" y="129" width="201" height="8" rx="4" fill="#8B5CF6" opacity="0.86"/>
-<text x="690" y="168" font-family="monospace" font-size="14" fill="#E2E8F0">Lua</text><rect x="845" y="157" width="182" height="8" rx="4" fill="#8B5CF6" opacity="0.77"/>
-<text x="690" y="196" font-family="monospace" font-size="14" fill="#E2E8F0">JavaScript</text><rect x="845" y="185" width="163" height="8" rx="4" fill="#8B5CF6" opacity="0.68"/>
-<text x="690" y="224" font-family="monospace" font-size="14" fill="#E2E8F0">C++</text><rect x="845" y="213" width="144" height="8" rx="4" fill="#8B5CF6" opacity="0.59"/>
-<text x="690" y="252" font-family="monospace" font-size="14" fill="#E2E8F0">HTML/CSS</text><rect x="845" y="241" width="125" height="8" rx="4" fill="#8B5CF6" opacity="0.50"/>
 
-<text x="60" y="243" font-family="monospace" font-size="11" fill="#64748B">DEVELOPMENT SIGNAL // VISUAL ACTIVITY TRACE</text>
-<line x1="60" y1="260" x2="1140" y2="260" stroke="#251D31"/>
-<line x1="60" y1="317.5" x2="1140" y2="317.5" stroke="#251D31"/>
-<line x1="60" y1="375" x2="1140" y2="375" stroke="#332640"/>
+<!-- LANGUAGES -->
 
-<polygon points="60,375 60.0,314.6 69.1,316.0 78.2,330.8 87.2,342.7 96.3,337.7 105.4,341.6 114.5,343.3 123.5,354.9 132.6,340.4 141.7,333.1 150.8,332.1 159.8,329.3 168.9,338.3 178.0,333.7 187.1,323.6 196.1,332.4 205.2,342.7 214.3,300.5 223.4,311.0 232.4,312.4 241.5,318.4 250.6,331.8 259.7,335.5 268.7,323.2 277.8,319.9 286.9,327.9 296.0,341.1 305.0,352.9 314.1,334.9 323.2,324.4 332.3,319.3 341.3,316.0 350.4,302.5 359.5,313.8 368.6,265.8 377.6,265.8 386.7,270.8 395.8,265.8 404.9,270.0 413.9,265.8 423.0,272.3 432.1,280.7 441.2,265.8 450.3,273.6 459.3,280.6 468.4,286.9 477.5,285.0 486.6,293.4 495.6,306.9 504.7,310.0 513.8,309.7 522.9,284.1 531.9,266.1 541.0,277.3 550.1,275.1 559.2,265.8 568.2,265.8 577.3,265.8 586.4,265.8 595.5,265.8 604.5,265.8 613.6,265.8 622.7,271.3 631.8,265.8 640.8,265.8 649.9,265.8 659.0,274.5 668.1,286.6 677.1,265.8 686.2,265.8 695.3,266.4 704.4,272.9 713.4,274.2 722.5,265.8 731.6,273.1 740.7,274.4 749.7,266.2 758.8,272.8 767.9,272.0 777.0,280.0 786.1,267.7 795.1,279.5 804.2,289.9 813.3,291.2 822.4,280.8 831.4,265.8 840.5,265.8 849.6,266.3 858.7,277.6 867.7,275.4 876.8,265.8 885.9,265.8 895.0,265.8 904.0,265.8 913.1,265.8 922.2,265.8 931.3,267.7 940.3,265.8 949.4,265.8 958.5,265.8 967.6,265.8 976.6,268.6 985.7,265.8 994.8,268.4 1003.9,279.8 1012.9,280.6 1022.0,275.8 1031.1,278.7 1040.2,276.5 1049.2,286.5 1058.3,271.3 1067.4,265.8 1076.5,280.2 1085.5,285.0 1094.6,276.3 1103.7,265.8 1112.8,265.8 1121.8,278.1 1130.9,275.5 1140.0,265.8 1140,375" fill="url(#area)"/>
-<polyline points="60.0,314.6 69.1,316.0 78.2,330.8 87.2,342.7 96.3,337.7 105.4,341.6 114.5,343.3 123.5,354.9 132.6,340.4 141.7,333.1 150.8,332.1 159.8,329.3 168.9,338.3 178.0,333.7 187.1,323.6 196.1,332.4 205.2,342.7 214.3,300.5 223.4,311.0 232.4,312.4 241.5,318.4 250.6,331.8 259.7,335.5 268.7,323.2 277.8,319.9 286.9,327.9 296.0,341.1 305.0,352.9 314.1,334.9 323.2,324.4 332.3,319.3 341.3,316.0 350.4,302.5 359.5,313.8 368.6,265.8 377.6,265.8 386.7,270.8 395.8,265.8 404.9,270.0 413.9,265.8 423.0,272.3 432.1,280.7 441.2,265.8 450.3,273.6 459.3,280.6 468.4,286.9 477.5,285.0 486.6,293.4 495.6,306.9 504.7,310.0 513.8,309.7 522.9,284.1 531.9,266.1 541.0,277.3 550.1,275.1 559.2,265.8 568.2,265.8 577.3,265.8 586.4,265.8 595.5,265.8 604.5,265.8 613.6,265.8 622.7,271.3 631.8,265.8 640.8,265.8 649.9,265.8 659.0,274.5 668.1,286.6 677.1,265.8 686.2,265.8 695.3,266.4 704.4,272.9 713.4,274.2 722.5,265.8 731.6,273.1 740.7,274.4 749.7,266.2 758.8,272.8 767.9,272.0 777.0,280.0 786.1,267.7 795.1,279.5 804.2,289.9 813.3,291.2 822.4,280.8 831.4,265.8 840.5,265.8 849.6,266.3 858.7,277.6 867.7,275.4 876.8,265.8 885.9,265.8 895.0,265.8 904.0,265.8 913.1,265.8 922.2,265.8 931.3,267.7 940.3,265.8 949.4,265.8 958.5,265.8 967.6,265.8 976.6,268.6 985.7,265.8 994.8,268.4 1003.9,279.8 1012.9,280.6 1022.0,275.8 1031.1,278.7 1040.2,276.5 1049.2,286.5 1058.3,271.3 1067.4,265.8 1076.5,280.2 1085.5,285.0 1094.6,276.3 1103.7,265.8 1112.8,265.8 1121.8,278.1 1130.9,275.5 1140.0,265.8" fill="none" stroke="#A78BFA" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" filter="url(#glow)"/>
+<text x="760" y="110" font-family="monospace" font-size="11" fill="#64748B">
+ACTIVE STACK
+</text>
 
-<text x="60" y="403" font-family="monospace" font-size="11" fill="#64748B">SIGNAL START</text>
-<text x="1140" y="403" text-anchor="end" font-family="monospace" font-size="11" fill="#64748B">CURRENT SESSION</text>
+<g font-family="monospace" font-size="13" fill="#E2E8F0">
 
-<circle cy="375" r="4" fill="#C084FC" filter="url(#glow)">
-  <animate attributeName="cx" values="60;1140;60" dur="8s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values=".2;1;.2" dur="1.5s" repeatCount="indefinite"/>
+<text x="760" y="145">Python</text>
+<text x="760" y="172">C#</text>
+<text x="760" y="199">Lua</text>
+<text x="760" y="226">JavaScript</text>
+
+</g>
+
+<g fill="#8B5CF6">
+
+<rect x="880" y="135" width="210" height="7" rx="4"></rect>
+
+<rect x="880" y="162" width="185" height="7" rx="4" opacity=".85"></rect>
+
+<rect x="880" y="189" width="150" height="7" rx="4" opacity=".7"></rect>
+
+<rect x="880" y="216" width="115" height="7" rx="4" opacity=".55"></rect>
+
+</g>
+
+
+<!-- ACTIVITY GRAPH -->
+
+<text x="60" y="225" font-family="monospace" font-size="11" fill="#64748B">
+DEVELOPMENT SIGNAL
+</text>
+
+<line x1="60" y1="390" x2="1140" y2="390" stroke="#332640"></line>
+
+<line x1="60" y1="330" x2="1140" y2="330" stroke="#241B30"></line>
+
+<line x1="60" y1="270" x2="1140" y2="270" stroke="#241B30"></line>
+
+
+<polygon points="
+60,390
+60,365
+100,350
+140,370
+180,320
+220,345
+260,300
+300,340
+340,290
+380,315
+420,280
+460,325
+500,275
+540,310
+580,260
+620,300
+660,245
+700,285
+740,250
+780,305
+820,265
+860,290
+900,240
+940,270
+980,225
+1020,255
+1060,230
+1100,250
+1140,220
+1140,390
+" fill="url(#chart)"></polygon>
+
+<polyline points="
+60,365
+100,350
+140,370
+180,320
+220,345
+260,300
+300,340
+340,290
+380,315
+420,280
+460,325
+500,275
+540,310
+580,260
+620,300
+660,245
+700,285
+740,250
+780,305
+820,265
+860,290
+900,240
+940,270
+980,225
+1020,255
+1060,230
+1100,250
+1140,220
+" fill="none" stroke="#A78BFA" stroke-width="3" filter="url(#glow)"></polyline>
+
+
+<circle cy="390" r="4" fill="#C084FC" filter="url(#glow)">
+
+<animate attributeName="cx" values="60;1140;60" dur="7s" repeatCount="indefinite"></animate>
+
 </circle>
+
 </svg>

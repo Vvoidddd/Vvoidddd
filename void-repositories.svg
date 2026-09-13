@@ -1,0 +1,101 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
+
+<rect x="20" y="20" width="1160" height="380" rx="20" fill="#09090F" stroke="#2A2038"></rect>
+
+<text x="60" y="68" font-family="monospace" font-size="15" fill="#8B5CF6">
+ls -lah ~/repositories
+</text>
+
+
+<g font-family="monospace">
+
+<text x="70" y="115" font-size="11" fill="#64748B">
+NAME
+</text>
+
+<text x="450" y="115" font-size="11" fill="#64748B">
+TYPE
+</text>
+
+<text x="750" y="115" font-size="11" fill="#64748B">
+STACK
+</text>
+
+<text x="1040" y="115" font-size="11" fill="#64748B">
+STATE
+</text>
+
+
+<line x1="60" y1="130" x2="1140" y2="130" stroke="#2A2038"></line>
+
+
+<text x="70" y="175" font-size="15" fill="#F8FAFC">
+Sentinel Hub
+</text>
+
+<text x="450" y="175" font-size="13" fill="#94A3B8">
+Utility Hub
+</text>
+
+<text x="750" y="175" font-size="13" fill="#A78BFA">
+Lua / Luau
+</text>
+
+<text x="1040" y="175" font-size="12" fill="#22C55E">
+ONLINE
+</text>
+
+
+<text x="70" y="230" font-size="15" fill="#F8FAFC">
+SSO Script
+</text>
+
+<text x="450" y="230" font-size="13" fill="#94A3B8">
+Automation
+</text>
+
+<text x="750" y="230" font-size="13" fill="#A78BFA">
+Lua
+</text>
+
+<text x="1040" y="230" font-size="12" fill="#22C55E">
+ONLINE
+</text>
+
+
+<text x="70" y="285" font-size="15" fill="#F8FAFC">
+Lua Obfuscator
+</text>
+
+<text x="450" y="285" font-size="13" fill="#94A3B8">
+Transformation
+</text>
+
+<text x="750" y="285" font-size="13" fill="#A78BFA">
+Lua
+</text>
+
+<text x="1040" y="285" font-size="12" fill="#F59E0B">
+EXPERIMENTAL
+</text>
+
+
+<text x="70" y="340" font-size="15" fill="#F8FAFC">
+macOS RTX Kexts
+</text>
+
+<text x="450" y="340" font-size="13" fill="#94A3B8">
+Systems
+</text>
+
+<text x="750" y="340" font-size="13" fill="#A78BFA">
+Low-Level
+</text>
+
+<text x="1040" y="340" font-size="12" fill="#F59E0B">
+EXPERIMENTAL
+</text>
+
+</g>
+
+</svg>

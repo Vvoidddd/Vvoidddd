@@ -1,0 +1,17 @@
+<svg width="340" height="90" viewBox="0 0 340 90" xmlns="http://www.w3.org/2000/svg">
+
+<rect x="3" y="3" width="334" height="84" rx="14" fill="#0D0D14" stroke="#312442" stroke-width="2"></rect>
+
+<text x="28" y="38" font-family="monospace" font-size="12" fill="#64748B">
+/dev/connect
+</text>
+
+<text x="28" y="64" font-family="monospace" font-size="18" font-weight="700" fill="#F8FAFC">
+GITHUB
+</text>
+
+<text x="305" y="55" text-anchor="end" font-family="monospace" font-size="13" fill="#A78BFA">
+Vvoidddd →
+</text>
+
+</svg>
