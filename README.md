@@ -1,28 +1,32 @@
-
 <div align="center">
 
-<img src="./assets/void-header.svg" width="100%" alt="VOID Header"/>
+<img src="./void-header.svg" width="100%" alt="VOID Header"/>
 
 <br>
 
 <a href="https://github.com/Vvoidddd?tab=followers">
-<img src="https://img.shields.io/github/followers/Vvoidddd?style=for-the-badge&label=FOLLOWERS&logo=github&logoColor=white&color=6D28D9"/>
+  <img src="https://img.shields.io/github/followers/Vvoidddd?style=for-the-badge&label=FOLLOWERS&logo=github&logoColor=white&color=6D28D9"/>
 </a>
 
 <img src="https://komarev.com/ghpvc/?username=Vvoidddd&label=PROFILE%20VIEWS&style=for-the-badge&color=8B5CF6"/>
 
 <a href="https://github.com/Vvoidddd?tab=repositories">
-<img src="https://img.shields.io/badge/REPOSITORIES-EXPLORE-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/REPOSITORIES-EXPLORE-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
+
+<br><br>
+
+`WINDOWS` • `SOFTWARE` • `SYSTEMS` • `AI` • `AUTOMATION`
 
 </div>
 
-<img src="./assets/neon-divider.svg" width="100%"/>
+<img src="./neon-divider.svg" width="100%"/>
 
-## `VOID://IDENTITY`
+# `VOID://IDENTITY`
 
 ```yaml
 alias: Void
+username: Vvoidddd
 
 role:
   - Software Developer
@@ -30,6 +34,9 @@ role:
 
 environment:
   os: Windows 11
+  editors:
+    - Visual Studio
+    - VS Code
 
 languages:
   - Python
@@ -41,15 +48,16 @@ languages:
   - CSS
 
 focus:
-  - Windows Software
-  - Systems
+  - Windows Development
+  - Systems Programming
   - Networking
   - Automation
   - Artificial Intelligence
   - Local LLMs
   - Backend Infrastructure
+  - Developer Tools
   - Game Tooling
-````
+```
 
 <div align="center">
 
@@ -59,7 +67,7 @@ focus:
 
 </div>
 
-<img src="./assets/neon-divider.svg" width="100%"/>
+<img src="./neon-divider.svg" width="100%"/>
 
 # `VOID://PROJECTS`
 
@@ -72,22 +80,23 @@ focus:
 
 ### Windows Game Launcher
 
-A custom Windows launcher focused on automatically discovering and organizing installed games.
+A custom Windows launcher focused on automatically discovering, organizing, and launching installed games.
 
 ```text
-C# / WPF / .NET 8 / Windows
+C# • WPF • .NET 8 • Windows
 ```
 
-**SYSTEMS**
+**FEATURES**
 
-* Automatic game detection
-* Executable discovery
-* Cover artwork
-* Favorites
-* Recently played
-* Custom window framework
-* Theme engine
-* Animated interface
+- Automatic game scanning
+- Executable discovery
+- Library management
+- Cover artwork
+- Favorites
+- Recently played
+- Custom frameless UI
+- Theme engine
+- Animated interface
 
 ```diff
 + ACTIVE DEVELOPMENT
@@ -101,21 +110,21 @@ C# / WPF / .NET 8 / Windows
 
 ### Windows Technician Toolkit
 
-A professional toolkit designed to automate PC diagnostics, troubleshooting, repair and maintenance.
+A Windows diagnostic and repair platform designed to automate repetitive PC troubleshooting and maintenance workflows.
 
 ```text
-C# / Windows / APIs / Diagnostics
+C# • Windows • APIs • Diagnostics
 ```
 
-**SYSTEMS**
+**FOCUS**
 
-* Hardware diagnostics
-* Windows repair
-* Network tools
-* System information
-* Maintenance automation
-* Technician workflows
-* Reporting
+- Hardware diagnostics
+- Windows repair
+- Network diagnostics
+- System information
+- Maintenance automation
+- Technician workflows
+- Reporting
 
 ```diff
 + RESEARCH / DEVELOPMENT
@@ -131,35 +140,40 @@ C# / Windows / APIs / Diagnostics
 
 ## 🔐 VoidHub
 
-### Backend Infrastructure
+### Licensing & Backend Infrastructure
 
-Licensing and authentication infrastructure powering the Void ecosystem.
+Backend infrastructure for authentication, licensing, device activation, and client/server communication.
 
 ```text
-Python / Flask / Nginx / SQL
+Python • Flask • Nginx • SQL
 ```
 
 ```text
-VOIDTECH
-   │
-   ▼
- NGINX
-   │
-   ▼
-VOIDHUB
-   │
-   ▼
-DATABASE
+VoidTech Client
+      │
+      ▼
+    Nginx
+      │
+      ▼
+ VoidHub API
+      │
+      ▼
+   Database
 ```
 
 **SYSTEMS**
 
-* License management
-* Device activation
-* Machine limits
-* Expiration tracking
-* Authentication
-* Private networking
+- License generation
+- Device activation
+- Machine limits
+- Expiration tracking
+- Authentication
+- Private networking
+- API infrastructure
+
+```diff
++ PLANNING / DEVELOPMENT
+```
 
 </td>
 
@@ -169,72 +183,76 @@ DATABASE
 
 ### Lua / Luau Utility Platform
 
-Modular scripting environment built around custom UI and reusable runtime systems.
+A modular scripting environment centered around custom interfaces and reusable runtime utilities.
 
 ```text
-Lua / Luau / UI
+Lua • Luau • UI
 ```
 
-**SYSTEMS**
+**FOCUS**
 
-* Modular architecture
-* Custom interface
-* Runtime controls
-* Utility framework
+- Modular architecture
+- Custom UI
+- Runtime controls
+- Utility framework
 
 ### [OPEN REPOSITORY →](https://github.com/Vvoidddd/Sentinel-Hub)
+
+```diff
++ ACTIVE
+```
 
 </td>
 
 </tr>
 </table>
 
-<img src="./assets/neon-divider.svg" width="100%"/>
+<img src="./neon-divider.svg" width="100%"/>
 
 # `VOID://TECH`
 
 <div align="center">
 
-### LANGUAGES
+### Languages
 
 <img src="https://skillicons.dev/icons?i=python,cpp,cs,js,lua,html,css"/>
 
 <br><br>
 
-### SOFTWARE
+### Frameworks & Runtime
 
 <img src="https://skillicons.dev/icons?i=dotnet,flask,django,react,nodejs"/>
 
 <br><br>
 
-### SYSTEMS
+### Systems & Infrastructure
 
 <img src="https://skillicons.dev/icons?i=windows,linux,docker,nginx,sqlite"/>
 
 <br><br>
 
-### DEVELOPMENT
+### Development
 
 <img src="https://skillicons.dev/icons?i=visualstudio,vscode,git,github,powershell"/>
 
 </div>
 
-<img src="./assets/neon-divider.svg" width="100%"/>
+<img src="./neon-divider.svg" width="100%"/>
 
 # `VOID://TELEMETRY`
 
 <div align="center">
 
-### CONTRIBUTION STREAK
+## Contribution Streak
 
 <img
 width="72%"
-src="https://streak-stats.demolab.com?user=Vvoidddd&hide_border=true&background=0D1117&ring=8B5CF6&fire=C084FC&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=A78BFA&sideLabels=94A3B8&dates=64748B&stroke=30363D"
+src="https://streak-stats.demolab.com?user=Vvoidddd&hide_border=true&background=0D1117&ring=8B5CF6&fire=C084FC&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=A78BFA&sideLabels=8B949E&dates=64748B&stroke=30363D"
 />
 
 <br><br>
 
-### DEVELOPER ACTIVITY
+## Developer Overview
 
 <img
 width="92%"
@@ -242,6 +260,20 @@ src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?u
 />
 
 <br>
+
+<img
+width="45%"
+src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Vvoidddd&theme=github_dark"
+/>
+
+<img
+width="45%"
+src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Vvoidddd&theme=github_dark&utcOffset=-4"
+/>
+
+<br><br>
+
+## Language Analytics
 
 <img
 width="45%"
@@ -255,67 +287,146 @@ src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-langu
 
 </div>
 
-<img src="./assets/neon-divider.svg" width="100%"/>
+<img src="./neon-divider.svg" width="100%"/>
 
-# `VOID://NETWORK`
+# `VOID://ARCHITECTURE`
 
 ```mermaid
 flowchart LR
 
-    V((VOID))
+    VOID((VOID))
 
-    V --> W["WINDOWS"]
-    V --> S["SYSTEMS"]
-    V --> A["AI"]
-    V --> B["BACKEND"]
-    V --> G["GAME TOOLING"]
+    VOID --> WINDOWS["WINDOWS"]
+    VOID --> SYSTEMS["SYSTEMS"]
+    VOID --> AI["AI"]
+    VOID --> BACKEND["BACKEND"]
+    VOID --> GAME["GAME TOOLING"]
 
-    W --> WPF["WPF"]
-    W --> DOTNET[".NET"]
+    WINDOWS --> WPF["WPF / .NET"]
+    WINDOWS --> DESKTOP["DESKTOP APPS"]
 
-    S --> NET["NETWORKING"]
-    S --> AUTO["AUTOMATION"]
-    S --> DIAG["DIAGNOSTICS"]
+    SYSTEMS --> NET["NETWORKING"]
+    SYSTEMS --> DIAG["DIAGNOSTICS"]
+    SYSTEMS --> AUTO["AUTOMATION"]
 
-    A --> LLM["LOCAL LLM"]
-    A --> AG["AGENTS"]
+    AI --> LLM["LOCAL LLMs"]
+    AI --> AGENT["AI TOOLING"]
 
-    B --> API["REST API"]
-    B --> AUTH["AUTH"]
-    B --> DB["DATABASE"]
+    BACKEND --> API["REST APIs"]
+    BACKEND --> AUTH["AUTH"]
+    BACKEND --> DB["DATABASES"]
 
-    G --> LUA["LUA / LUAU"]
-    G --> LAUNCH["LAUNCHERS"]
+    GAME --> LUA["LUA / LUAU"]
+    GAME --> LAUNCH["LAUNCHERS"]
 ```
 
-<img src="./assets/neon-divider.svg" width="100%"/>
+<img src="./neon-divider.svg" width="100%"/>
 
-# `VOID://PUBLIC_REPOSITORIES`
+# `VOID://REPOSITORIES`
 
-| Repository                                                     | System         | Stack        | State          |
-| -------------------------------------------------------------- | -------------- | ------------ | -------------- |
-| [Sentinel Hub](https://github.com/Vvoidddd/Sentinel-Hub)       | Utility Hub    | `Lua` `Luau` | `ONLINE`       |
-| [SSO Script](https://github.com/Vvoidddd/SSO-Script)           | Automation     | `Lua`        | `ONLINE`       |
-| [Lua Obfuscator](https://github.com/Vvoidddd/Lua-Obfuscator)   | Transformation | `Lua`        | `EXPERIMENTAL` |
-| [macOS RTX Kexts](https://github.com/Vvoidddd/macOS-RTX-Kexts) | Systems        | `Low Level`  | `EXPERIMENTAL` |
+| Repository | Type | Stack | Status |
+|---|---|---|---|
+| [**Sentinel Hub**](https://github.com/Vvoidddd/Sentinel-Hub) | Utility Hub | `Lua` `Luau` | `ONLINE` |
+| [**SSO Script**](https://github.com/Vvoidddd/SSO-Script) | Automation | `Lua` | `ONLINE` |
+| [**Lua Obfuscator**](https://github.com/Vvoidddd/Lua-Obfuscator) | Source Transformation | `Lua` | `EXPERIMENTAL` |
+| [**macOS RTX Kexts**](https://github.com/Vvoidddd/macOS-RTX-Kexts) | Systems Experiment | `Low-Level` | `EXPERIMENTAL` |
 
-<img src="./assets/neon-divider.svg" width="100%"/>
+<img src="./neon-divider.svg" width="100%"/>
+
+# `VOID://INTERESTS`
+
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+## 🖥️ Windows Development
+
+```text
+WPF
+.NET
+Windows APIs
+Process Management
+File Systems
+System Diagnostics
+Custom UI
+Automation
+```
+
+</td>
+
+<td width="50%" valign="top">
+
+## 🤖 Artificial Intelligence
+
+```text
+Local LLMs
+LM Studio
+Model APIs
+Coding Assistants
+Agent Systems
+Tool Calling
+Local Inference
+```
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+## 🌐 Systems & Infrastructure
+
+```text
+REST APIs
+Nginx
+Networking
+Authentication
+Databases
+Private Networks
+Client / Server Architecture
+```
+
+</td>
+
+<td width="50%" valign="top">
+
+## 🎮 Game Tooling
+
+```text
+Launchers
+Lua / Luau
+Modding
+Automation
+Asset Management
+Custom Interfaces
+```
+
+</td>
+
+</tr>
+</table>
+
+<img src="./neon-divider.svg" width="100%"/>
 
 # `VOID://ROADMAP`
 
 ```diff
 + Build more native Windows software
-+ Push deeper into systems programming
 + Expand VoidLaunch
 + Develop VoidTech
 + Build VoidHub infrastructure
++ Learn deeper systems programming
 + Experiment with local LLM systems
-+ Create AI powered developer tools
++ Build AI-powered developer tools
 + Learn deeper networking
-+ Keep building weird shit
++ Create better developer tooling
++ Keep turning random ideas into software
 ```
 
-<img src="./assets/neon-divider.svg" width="100%"/>
+<img src="./neon-divider.svg" width="100%"/>
 
 # `VOID://PHILOSOPHY`
 
@@ -334,7 +445,7 @@ flowchart LR
 
 </div>
 
-<img src="./assets/neon-divider.svg" width="100%"/>
+<img src="./neon-divider.svg" width="100%"/>
 
 # `VOID://CONNECT`
 
@@ -356,312 +467,4 @@ flowchart LR
 
 <br>
 
-<img src="./assets/void-footer.svg" width="100%"/>
-```
-
-Now the part that actually makes it stand out:
-
-## `assets/void-header.svg`
-
-This isn't another generic Capsule Render header. It's yours.
-
-```svg
-<svg
-    width="1200"
-    height="330"
-    viewBox="0 0 1200 330"
-    xmlns="http://www.w3.org/2000/svg">
-
-    <defs>
-
-        <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stop-color="#07070c"/>
-            <stop offset="50%" stop-color="#0d0918"/>
-            <stop offset="100%" stop-color="#07070c"/>
-        </linearGradient>
-
-        <linearGradient id="purple" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0%" stop-color="#6d28d9"/>
-            <stop offset="50%" stop-color="#a855f7"/>
-            <stop offset="100%" stop-color="#7c3aed"/>
-        </linearGradient>
-
-        <filter id="glow">
-            <feGaussianBlur stdDeviation="5" result="blur"/>
-            <feMerge>
-                <feMergeNode in="blur"/>
-                <feMergeNode in="SourceGraphic"/>
-            </feMerge>
-        </filter>
-
-        <pattern
-            id="grid"
-            width="40"
-            height="40"
-            patternUnits="userSpaceOnUse">
-
-            <path
-                d="M 40 0 L 0 0 0 40"
-                fill="none"
-                stroke="#8b5cf6"
-                stroke-width="0.5"
-                opacity="0.10"/>
-
-        </pattern>
-
-    </defs>
-
-
-    <!-- BACKGROUND -->
-
-    <rect
-        width="1200"
-        height="330"
-        rx="18"
-        fill="url(#background)"
-    />
-
-    <rect
-        width="1200"
-        height="330"
-        rx="18"
-        fill="url(#grid)"
-    />
-
-
-    <!-- TOP BAR -->
-
-    <circle cx="34" cy="28" r="6" fill="#ef4444"/>
-    <circle cx="54" cy="28" r="6" fill="#eab308"/>
-    <circle cx="74" cy="28" r="6" fill="#22c55e"/>
-
-    <text
-        x="100"
-        y="34"
-        font-family="monospace"
-        font-size="14"
-        fill="#64748b">
-        void@github ~/profile
-    </text>
-
-
-    <!-- MAIN VOID TEXT -->
-
-    <text
-        x="600"
-        y="150"
-        text-anchor="middle"
-        font-family="monospace"
-        font-size="82"
-        font-weight="800"
-        letter-spacing="18"
-        fill="url(#purple)"
-        filter="url(#glow)">
-        VOID
-    </text>
-
-
-    <!-- SUBTITLE -->
-
-    <text
-        x="600"
-        y="205"
-        text-anchor="middle"
-        font-family="monospace"
-        font-size="20"
-        letter-spacing="4"
-        fill="#c4b5fd">
-
-        SOFTWARE • SYSTEMS • AI
-
-    </text>
-
-
-    <!-- TERMINAL LINE -->
-
-    <text
-        x="600"
-        y="258"
-        text-anchor="middle"
-        font-family="monospace"
-        font-size="16"
-        fill="#64748b">
-
-        void@system:~$
-
-        <tspan fill="#a855f7">
-            building_something_new
-        </tspan>
-
-        <tspan>
-            _
-        </tspan>
-
-        <animate
-            attributeName="opacity"
-            values="1;1;0;0;1"
-            dur="1s"
-            repeatCount="indefinite"/>
-
-    </text>
-
-
-    <!-- BOTTOM GLOW LINE -->
-
-    <rect
-        x="170"
-        y="300"
-        width="860"
-        height="2"
-        fill="url(#purple)"
-        opacity="0.9"
-        filter="url(#glow)"
-    />
-
-</svg>
-```
-
-That gives you this whole **cyber terminal / custom dev OS** vibe instead of the standard waving-gradient shit everybody has.
-
----
-
-## `assets/neon-divider.svg`
-
-```svg
-<svg
-    width="1200"
-    height="38"
-    viewBox="0 0 1200 38"
-    xmlns="http://www.w3.org/2000/svg">
-
-    <defs>
-
-        <linearGradient id="line">
-            <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0"/>
-            <stop offset="20%" stop-color="#8b5cf6"/>
-            <stop offset="50%" stop-color="#c084fc"/>
-            <stop offset="80%" stop-color="#8b5cf6"/>
-            <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
-        </linearGradient>
-
-        <filter id="glow">
-            <feGaussianBlur stdDeviation="3"/>
-        </filter>
-
-    </defs>
-
-    <rect
-        x="100"
-        y="18"
-        width="1000"
-        height="2"
-        fill="url(#line)"
-        filter="url(#glow)">
-        
-        <animate
-            attributeName="opacity"
-            values="0.35;1;0.35"
-            dur="4s"
-            repeatCount="indefinite"/>
-
-    </rect>
-
-    <rect
-        x="100"
-        y="18"
-        width="1000"
-        height="1"
-        fill="url(#line)"
-    />
-
-</svg>
-```
-
-So instead of boring:
-
-```text
--------------------------
-```
-
-every section gets a glowing purple divider.
-
----
-
-# `assets/void-footer.svg`
-
-```svg
-<svg
-    width="1200"
-    height="170"
-    viewBox="0 0 1200 170"
-    xmlns="http://www.w3.org/2000/svg">
-
-    <defs>
-
-        <linearGradient id="bg">
-            <stop offset="0%" stop-color="#09090f"/>
-            <stop offset="100%" stop-color="#12091f"/>
-        </linearGradient>
-
-        <linearGradient id="purple">
-            <stop offset="0%" stop-color="#6d28d9"/>
-            <stop offset="50%" stop-color="#c084fc"/>
-            <stop offset="100%" stop-color="#6d28d9"/>
-        </linearGradient>
-
-        <filter id="glow">
-            <feGaussianBlur stdDeviation="4"/>
-        </filter>
-
-    </defs>
-
-    <rect
-        width="1200"
-        height="170"
-        rx="18"
-        fill="url(#bg)"
-    />
-
-    <text
-        x="600"
-        y="68"
-        text-anchor="middle"
-        font-family="monospace"
-        font-size="20"
-        fill="#a855f7">
-        void@github:~$
-    </text>
-
-    <text
-        x="600"
-        y="105"
-        text-anchor="middle"
-        font-family="monospace"
-        font-size="16"
-        fill="#94a3b8">
-        See you in the next commit.
-    </text>
-
-    <rect
-        x="300"
-        y="135"
-        width="600"
-        height="2"
-        fill="url(#purple)"
-        filter="url(#glow)">
-
-        <animate
-            attributeName="width"
-            values="150;600;150"
-            dur="5s"
-            repeatCount="indefinite"/>
-
-        <animate
-            attributeName="x"
-            values="525;300;525"
-            dur="5s"
-            repeatCount="indefinite"/>
-
-    </rect>
-
-</svg>
+<img src="./void-footer.svg" width="100%" alt="VOID Footer"/>
