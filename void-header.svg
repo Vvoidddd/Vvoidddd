@@ -1,0 +1,100 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06060A"></stop>
+      <stop offset="50%" stop-color="#10091D"></stop>
+      <stop offset="100%" stop-color="#06060A"></stop>
+    </linearGradient>
+
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6D28D9"></stop>
+      <stop offset="45%" stop-color="#A855F7"></stop>
+      <stop offset="70%" stop-color="#C084FC"></stop>
+      <stop offset="100%" stop-color="#7C3AED"></stop>
+    </linearGradient>
+
+    <radialGradient id="radial">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".20"></stop>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"></stop>
+    </radialGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#8B5CF6" stroke-width=".5" opacity=".10"></path>
+    </pattern>
+
+    <clipPath id="clip">
+      <rect width="1200" height="340" rx="20"></rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+
+    <rect width="1200" height="340" fill="url(#bg)"></rect>
+    <rect width="1200" height="340" fill="url(#grid)"></rect>
+
+    <circle cx="600" cy="160" r="330" fill="url(#radial)">
+      <animate attributeName="r" values="270;350;270" dur="8s" repeatCount="indefinite"></animate>
+      <animate attributeName="opacity" values=".6;1;.6" dur="8s" repeatCount="indefinite"></animate>
+    </circle>
+
+    <!-- terminal title bar -->
+    <rect x="0" y="0" width="1200" height="56" fill="#0B0B11" opacity=".90"></rect>
+
+    <circle cx="30" cy="28" r="6" fill="#EF4444"></circle>
+    <circle cx="50" cy="28" r="6" fill="#EAB308"></circle>
+    <circle cx="70" cy="28" r="6" fill="#22C55E"></circle>
+
+    <text x="96" y="34" font-family="monospace" font-size="14" fill="#64748B">
+      void@github ~/profile
+    </text>
+
+    <!-- side decoration -->
+    <g opacity=".38">
+      <path d="M90 92 H360" stroke="#8B5CF6"></path>
+      <path d="M840 92 H1110" stroke="#8B5CF6"></path>
+      <path d="M90 292 H360" stroke="#8B5CF6"></path>
+      <path d="M840 292 H1110" stroke="#8B5CF6"></path>
+    </g>
+
+    <!-- title -->
+    <text x="600" y="173" text-anchor="middle" font-family="monospace" font-size="86" font-weight="900" letter-spacing="20" fill="url(#purple)" filter="url(#glow)">
+      VOID
+    </text>
+
+    <text x="600" y="219" text-anchor="middle" font-family="monospace" font-size="18" letter-spacing="5" fill="#C4B5FD">
+      SOFTWARE • SYSTEMS • AI
+    </text>
+
+    <text x="600" y="267" text-anchor="middle" font-family="monospace" font-size="15" fill="#64748B">
+      void@system:~$
+      <tspan fill="#A855F7"> ./build_something.sh</tspan>
+      <tspan fill="#C4B5FD">_</tspan>
+    </text>
+
+    <!-- blinking cursor -->
+    <rect x="778" y="254" width="9" height="17" fill="#C4B5FD">
+      <animate attributeName="opacity" values="1;1;0;0;1" dur="1s" repeatCount="indefinite"></animate>
+    </rect>
+
+    <!-- scanning line -->
+    <rect x="170" y="311" width="860" height="2" fill="url(#purple)" filter="url(#glow)">
+      <animate attributeName="opacity" values=".25;1;.25" dur="3s" repeatCount="indefinite"></animate>
+    </rect>
+
+    <circle cy="312" r="5" fill="#C084FC" filter="url(#glow)">
+      <animate attributeName="cx" values="170;1030;170" dur="6s" repeatCount="indefinite"></animate>
+    </circle>
+
+  </g>
+
+  <rect x=".5" y=".5" width="1199" height="339" rx="20" fill="none" stroke="#2A2038"></rect>
+</svg>

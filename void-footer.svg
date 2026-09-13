@@ -1,0 +1,45 @@
+<svg width="1200" height="210" viewBox="0 0 1200 210" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07070B"></stop>
+      <stop offset="50%" stop-color="#10091B"></stop>
+      <stop offset="100%" stop-color="#07070B"></stop>
+    </linearGradient>
+
+    <linearGradient id="purple">
+      <stop offset="0%" stop-color="#6D28D9"></stop>
+      <stop offset="50%" stop-color="#C084FC"></stop>
+      <stop offset="100%" stop-color="#6D28D9"></stop>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4"></feGaussianBlur>
+    </filter>
+
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#8B5CF6" stroke-width=".45" opacity=".07"></path>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="210" rx="20" fill="url(#bg)"></rect>
+  <rect width="1200" height="210" rx="20" fill="url(#grid)"></rect>
+
+  <text x="600" y="70" text-anchor="middle" font-family="monospace" font-size="19" fill="#A855F7">
+    void@github:~$
+  </text>
+
+  <text x="600" y="110" text-anchor="middle" font-family="monospace" font-size="17" fill="#C4B5FD">
+    See you in the next commit.
+  </text>
+
+  <text x="600" y="144" text-anchor="middle" font-family="monospace" font-size="13" fill="#64748B">
+    [ BUILD ] → [ BREAK ] → [ LEARN ] → [ IMPROVE ]
+  </text>
+
+  <rect y="174" width="320" height="2" fill="url(#purple)" filter="url(#glow)">
+    <animate attributeName="x" values="-320;1200" dur="5s" repeatCount="indefinite"></animate>
+  </rect>
+
+  <rect x=".5" y=".5" width="1199" height="209" rx="20" fill="none" stroke="#2A2038"></rect>
+</svg>
