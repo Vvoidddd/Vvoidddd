@@ -18,6 +18,10 @@ Building software, infrastructure, and tools under **VoidWare**.
 
 `01` **ABOUT**　·　`02` **TECH STACK**　·　`03` **PROJECTS**　·　`04` **STATISTICS**　·　`05` **CONNECT**
 
+<br/>
+
+<img src="01_about.gif" width="85%" alt="Void terminal profile" />
+
 </div>
 
 ## `01` — About Me
@@ -29,6 +33,8 @@ I'm a developer focused on building practical software, backend infrastructure, 
 - **Systems Engineering** — Operating system concepts and low-level experimentation.
 - **Game Infrastructure** — Multiplayer services and game revival projects.
 - **Cybersecurity** — Learning security analysis, system hardening, and secure development.
+
+---
 
 ## `02` — Tech Stack
 
@@ -46,51 +52,55 @@ I'm a developer focused on building practical software, backend infrastructure, 
 
 [![Tools](https://skillicons.dev/icons?i=git,github,vscode,visualstudio&theme=dark)](https://skillicons.dev)
 
+<br/>
+
+<img src="02_tools.gif" width="85%" alt="Void terminal development environment" />
+
 </div>
+
+---
 
 ## `03` — Projects
 
+My projects focus on practical utilities, desktop software, backend infrastructure, and automation.
+
 <div align="center">
+
+<img src="03_projects.gif" width="85%" alt="Void terminal project index" />
 
 </div>
 
-### [Dauntless Unbroken](https://github.com/Vvoidddd/dauntless-unbroken)
+### [Simple File Scanner](https://github.com/VVoidddd/Simple-File-Scanner)
 
-Game revival project focused on backend services, multiplayer infrastructure, and bringing gameplay back online.
+A file scanning utility built to inspect files and identify potential issues.
 
-`GAME INFRASTRUCTURE` `BACKEND` `NETWORKING`
+`PYTHON` `FILE ANALYSIS` `SECURITY`
+
+### [ZeroTrace](https://github.com/VVoidddd)
+
+A Windows cleanup and uninstallation utility designed to find applications, remove files, and clean up leftover data.
+
+`PYTHON` `WINDOWS` `SYSTEM UTILITIES`
+
+### [VoidWare Tools](https://github.com/VVoidddd)
+
+A collection of custom utilities, including file transfer software and tools for everyday development tasks.
+
+`PYTHON` `NETWORKING` `UTILITIES`
+
+### [Zipper](https://github.com/VVoidddd)
+
+A desktop file management utility focused on identifying unused files and organizing storage.
+
+`PYTHON` `PYQT` `DESKTOP DEVELOPMENT`
+
+### [CallBot](https://github.com/VVoidddd)
+
+A Discord bot with command management, server administration, and custom logging functionality.
+
+`PYTHON` `DISCORD.PY` `BOT DEVELOPMENT`
 
 ---
-
-### [VoidLaunch](https://github.com/Vvoidddd)
-
-A Windows game library launcher designed around a dedicated desktop application experience.
-
-`C#` `WPF` `.NET`
-
----
-
-### [VoidTech](https://github.com/Vvoidddd)
-
-A collection of Windows diagnostic and technician utilities built to make system troubleshooting more practical.
-
-`PYTHON` `WINDOWS`
-
----
-
-### [VoidHub](https://github.com/Vvoidddd)
-
-Backend infrastructure for APIs, authentication, licensing, and application integrations.
-
-`PYTHON` `FLASK` `SQLITE`
-
----
-
-### [Axiom](https://github.com/Vvoidddd)
-
-Operating system concepts and systems engineering experimentation.
-
-`SYSTEMS ENGINEERING` `DEVELOPMENT`
 
 ## `04` — GitHub Statistics
 
@@ -112,9 +122,15 @@ Operating system concepts and systems engineering experimentation.
 
 <sub>Statistics are provided by external services. Availability and refresh intervals depend on each provider.</sub>
 
+---
+
 ## `05` — Connect
 
 <div align="center">
+
+<img src="04_contact.gif" width="85%" alt="Void terminal contact information" />
+
+<br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-161b22?style=for-the-badge&logo=github&logoColor=c9d1d9)](https://github.com/Vvoidddd)
 [![Discord](https://img.shields.io/badge/Discord-Join%20the%20Community-161b22?style=for-the-badge&logo=discord&logoColor=a78bfa)](https://discord.gg/Mv3CdFKWrD)
@@ -125,5 +141,26 @@ Operating system concepts and systems engineering experimentation.
 **VOIDWARE**
 
 *Building things worth using.*
+
+</div>
+
+---
+
+<div align="center">
+
+### RANDOM DEVELOPER MOMENTS
+
+<img src="joke_01_bug.gif" width="32%" alt="The bugs are hiding" />
+<img src="joke_02_it_works.gif" width="32%" alt="Works on my machine" />
+
+<br/>
+
+<img src="joke_03_fix.gif" width="32%" alt="Fixing bugs" />
+<img src="joke_04_coffee.gif" width="32%" alt="Coffee not found" />
+
+<br/>
+
+<img src="joke_05_git.gif" width="32%" alt="Git status" />
+<img src="joke_06_memory.gif" width="32%" alt="Out of memory" />
 
 </div>
