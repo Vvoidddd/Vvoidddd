@@ -6,10 +6,6 @@
 
 Building software, infrastructure, and tools under **VoidWare**.
 
-[![GitHub](https://img.shields.io/badge/GITHUB-Vvoidddd-161b22?style=for-the-badge&logo=github&logoColor=c9d1d9)](https://github.com/Vvoidddd)
-[![Discord](https://img.shields.io/badge/DISCORD-COMMUNITY-161b22?style=for-the-badge&logo=discord&logoColor=a78bfa)](https://discord.gg/Mv3CdFKWrD)
-[![Roblox](https://img.shields.io/badge/ROBLOX-PROFILE-161b22?style=for-the-badge&logo=roblox&logoColor=c9d1d9)](https://www.roblox.com/users/88469511/profile)
-
 </div>
 
 ---
@@ -148,19 +144,8 @@ A Discord bot with command management, server administration, and custom logging
 
 <div align="center">
 
-### RANDOM DEVELOPER MOMENTS
+### DEVELOPER MOMENT
 
-<img src="joke_01_bug.gif" width="32%" alt="The bugs are hiding" />
-<img src="joke_02_it_works.gif" width="32%" alt="Works on my machine" />
-
-<br/>
-
-<img src="joke_03_fix.gif" width="32%" alt="Fixing bugs" />
-<img src="joke_04_coffee.gif" width="32%" alt="Coffee not found" />
-
-<br/>
-
-<img src="joke_05_git.gif" width="32%" alt="Git status" />
-<img src="joke_06_memory.gif" width="32%" alt="Out of memory" />
+<img src="joke_01_bug.gif" width="180" alt="The bugs are hiding" />
 
 </div>
